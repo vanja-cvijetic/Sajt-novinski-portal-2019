@@ -1,0 +1,129 @@
+.jumbotron{
+    background-color: #0f292f;
+    color: #ccc;
+    height: 15em;
+}
+
+.card{
+    background-color: #0f292f !important;
+}
+
+.card-title{
+    background-color: #cb2d6f;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.cardDugme{
+    background-color: #cb2d6f;
+    color: #ccc;
+    border: none;
+    overflow: auto;
+}
+
+.cardDugme:hover{
+    background-color: #ccc;
+    color: #cb2d6f;
+}
+
+.card-img{
+    height: 100%;
+}
+
+.card-img-overlay .card-text{ /* Glavna vest */
+    width: 70%;
+    margin: 30px auto;
+    background-color: rgba(204, 204, 204,0.8);
+    color: #0f292f;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Anketa */
+
+.form-group{
+    margin: 0 auto;
+}
+
+#anketa{
+    background-color: #0f292f;
+    color: #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#anketa a{
+    background-color: #ccc;
+    color: #0f292f;
+    border: 1px solid #0f292f;
+}
+
+#anketa a:hover{
+    background-color: #0f292f;
+    color: #ccc;
+    border: 1px solid #ccc;
+}
+
+#odgovori{
+    margin: 0 auto;
+}
+
+/* Link sa strane */
+
+#linkKaKategorijama{
+    margin: 0 auto;
+    font-size: 1.5em;
+    background-color: #0f292f;
+    color: #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+#linkKaKategorijama:hover{
+    transform: scale(1.05,1.05);
+}
+
+#ovde{
+    text-decoration: none;
+    color: #ccc;
+}
+
+#ovde:hover{
+    text-decoration: none;
+    color: #cb2d6f;
+}
+
+#josvesti{
+    text-align: center !important;
+}
+
+.card-text small a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+.card-text small a:hover{
+    color: #cb2d6f;
+}
+
+@media only screen and (max-width: 768px){
+    .card{
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    #anketa{
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    #linkKaKategorijama{
+        margin: 20px auto;
+    }
+
+    #glavnaVest{
+        width: 100% !important;
+    }
+
+}

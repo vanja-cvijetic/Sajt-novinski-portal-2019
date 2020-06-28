@@ -1,0 +1,95 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.jumbotron{
+    background-color: #0f292f;
+    color: #ccc;
+}
+
+#dugmeKategorije{
+    color: #0f292f;
+    background-color: #ccc;
+    border: 1px solid #0f292f;
+}
+
+#dugmeKategorije:hover{
+    color: #ccc;
+    background-color: #0f292f;
+    border: 1px solid #ccc;
+    outline: 0;
+}
+
+#kategorijeIzaberiDiv{
+    background-color: #0f292f !important;
+    color: #ccc !important;
+    text-align: center;
+}
+
+.dugmeIzbor{
+    background-color: #ccc !important;
+    color: #14a098 !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+    width: 20% !important;
+}
+
+.dugmeIzbor:hover{
+    background-color: #14a098 !important;
+    color: #0f292f !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+}
+
+.card-img{
+    height: 100% !important;
+}
+
+.dugmeSvetloplavo{
+    background-color: #14a098;
+    color: #0f292f;
+    border: 1px solid #14a098;
+}
+
+.dugmeSvetloplavo:hover{
+    background-color: #ccc;
+    color: #14a098;
+}
+
+.dugmeTamnoplavo{
+    background-color: #0f292f;
+    color: #14a098;
+    border: 1px solid #0f292f;
+}
+
+.dugmeTamnoplavo:hover{
+    background-color: #ccc;
+    color: #0f292f;
+}
+
+.slikeUGaleriji{
+    border: 5px solid #0f292f;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+
+.slikeUGaleriji:hover{
+    opacity: 1;
+}
+
+#vratiSeNaVrh{
+    position: fixed;
+    width: 50px;
+    color: #cb2d6f;
+    bottom: 40px;
+    right: 50px;
+    font-size: 3em;
+}
+
+@media only screen and (max-width: 768px){
+    .dugmeIzbor{
+        width: 60% !important;
+    }
+
+}

@@ -1,0 +1,64 @@
+.jumbotron{
+    background-color: #ccc;
+    color: #14a098;
+    margin-bottom: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+#opis{
+    
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+    border-bottom: 1px solid #cb2d6f;
+}
+
+#opis p{
+    margin-bottom: 5px !important;
+    color: #cb2d6f;
+    text-align: center;
+}
+
+#opis p a{
+    color: #cb2d6f;
+    text-decoration: none;
+}
+
+#opis p a:hover{
+    color: #14a098;
+}
+
+.clanak{
+    text-align: justify;
+    font-size: 120%;
+    color: #0f292f;
+    margin-bottom: 20px;
+}
+
+.row .img-fluid{
+    border-radius: 5px;
+    border: 2px solid #cb2d6f;
+    margin-bottom: 0;
+}
+
+.opisSlike{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#divPovratak{
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+}
+
+#povratak{
+    color: #cb2d6f;
+    text-decoration: none;
+    font-size: 1.5em;  
+}
+
+#povratak:hover{
+    color: #14a098;
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+    background-image: url("img/bck.png");
+    background-color: #cccccc;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* NAV */
+.navbar{
+    background-color: #0f292f !important;
+}
+
+.navbar a{
+    color: #14a098 !important;
+}
+
+.navbar a:hover{
+    color: #cccccc !important;
+}
+
+li.nav-item.active a{
+    color: #cccccc !important;
+}
+
+.navbar-toggler{
+    background-color: #14a098;
+}
+
+button:focus, a:focus {outline:0;}
+
+/* FOOTER */
+
+footer{
+    background-color: #0f292f;
+    color: #cccccc;
+    padding: 40px;
+}
+
+.fab{
+    color: #cccccc;
+    font-size: 30px;
+}
+
+.drustveneMreze a:hover i{
+    color: #14a098;
+}
+
+.drustveneMreze{ /* p */ 
+    text-align: center;
+}
+
+#divSaLogom{
+    text-align: center;
+}
+
+#divSaLogom a{
+    color: #cccccc;
+    text-decoration: none;
+}
+
+#divSaLogom a:hover{
+    color: #14a098;
+}
+
+#footerLogoSlika{
+    width: 100px;
+}
+
+#divSaAdresom{
+    text-align: center;
+}

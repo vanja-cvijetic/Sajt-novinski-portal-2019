@@ -1,0 +1,47 @@
+.jumbotron{
+    background-color: #0f292f;
+    color: #ccc;
+}
+
+.clanak{
+    background-color: rgba(15, 41, 47,0.9);
+    color: #ccc;
+    text-align: justify;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.clanak:hover{
+    background-color: rgba(15, 41, 47,1);
+}
+
+.ime{
+    font-size: 2em;
+    text-align: center !important;
+}
+
+.slikaNovinara{
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+
+.slikaNovinara:hover{
+    opacity: 1;
+}
+
+.bigorafija{
+    margin-bottom: 0px;
+}
+
+.kontaktDugme{
+    color: #0f292f !important;
+    background-color: #ccc !important;
+    margin: 0 auto !important;
+    cursor: pointer;
+}
+
+.card-body{
+    background-color: inherit;
+    color: #ccc;
+}
